@@ -5,7 +5,7 @@ A set of SQL queries answering real business questions against the Superstore
 retail dataset (~9,994 US retail orders, values in USD), covering aggregation, 
 ranking, time-trend analysis, joins across normalised tables, and a window function.
 
-
+<img width="650" height="695" alt="Image" src="https://github.com/user-attachments/assets/22a2c9fb-52b5-4473-afe8-d2b9e5f4af25" />
 
 ## Key Findings
 - The Western region leads on total sales ($725,457.82); Technology is the top 
