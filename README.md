@@ -28,6 +28,7 @@ string-based date parsing
 
 ## Files
 queries.sql
+
 findings.md
 
 ## Data Source
