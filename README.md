@@ -26,6 +26,20 @@ ranking, time-trend analysis, joins across normalised tables, and a window funct
 SQL (SQLite via DB Browser) — GROUP BY, JOIN, RANK() OVER, aggregate functions, 
 string-based date parsing
 
+## Skills Demonstrated
+Aggregation (GROUP BY, SUM), ranking (ORDER BY, LIMIT, RANK() OVER), date parsing 
+from text fields, table joins, calculated fields, and window functions
+
+## Note
+Order Date is stored as US-format text (M/D/YYYY) rather than a native date type, 
+so date-based queries extract year/month directly from the string rather than using 
+SQLite's built-in date functions.
+
+## How to Run
+1. Download DB Browser for SQLite (free): sqlitebrowser.org
+2. Open superstore.csv in DB Browser via File → Import → Table from CSV
+3. Run the queries in queries.sql via the Execute SQL tab
+   
 ## Files
 [queries.sql](queries.sql) — all SQL queries with comments
 
