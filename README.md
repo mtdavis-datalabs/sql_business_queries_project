@@ -1,33 +1,34 @@
-### SQL_Business_Queries_Project
-# **SQL Business Queries Project** 
+## SQL Business Queries Project
+[INSERT SCREENSHOT OF A QUERY RESULT]
 
-## **Overview:**
+## Overview
+A set of SQL queries answering real business questions against the Superstore 
+retail dataset (~9,994 US retail orders, values in USD), covering aggregation, 
+ranking, time-trend analysis, joins across normalised tables, and a window function.
 
-_This is where you add the quick overview of the project and the tools used for the project, its just a quick summary_
+## Key Findings
+- The Western region leads on total sales ($725,457.82); Technology is the top 
+  category by revenue ($836,154.03) and also leads on profit margin (17.4%), while 
+  Furniture trails significantly at just 2.49% margin — suggesting possible 
+  over-discounting worth investigating
+- Sales show a clear seasonal pattern across all four years — January/February are 
+  consistently the weakest months, while September, November and December spike 
+  sharply, pointing to a strong Q4/holiday shopping trend. Overall sales are also 
+  trending upward year-over-year, with November 2017 ($118,447.82) the single 
+  highest month in the dataset
+- Consumer customers make up the majority of the top 10 highest-spending customers, 
+  ahead of Corporate and Home Office segments
+- Sean Miller is the single highest-spending customer at $25,043.05, confirmed 
+  consistently across both a standard ranking query and a RANK() window function
 
-
-## **Key Features:** 
-- **Feature 1** - A summary of the 1st key feature of the project 
-- **Feature 2** - A summary of the 2nd key feature of the project
-- **Feature 3** - A summary of the 3rd key feature of the project and any highlights
-- **Feature 4** — A summary of the 4th key feature of the project
-- **Feature 5** — A summary of the 5th key feature of the project and so on
-
-
-## **Skills Demonstrated:** 
-- Skill 1
-- Skill 2
-- Skill 3
-- Skill 4 and so on
-
-
-## **Tools Used:**
-- Tool 1 - then followed with specific sub tools you need to highlight
-
+## Tools Used
+SQL (SQLite via DB Browser) — GROUP BY, JOIN, RANK() OVER, aggregate functions, 
+string-based date parsing
 
 ## Files
--[Name_of_File.xlsx](Name_of_File.xlsx) — the full interactive file with dashboards etc
-- `Name_of_Screenshot.png` — static preview of the dashboard (shown below)
+queries.sql
+findings.md
 
-
-_Note on data:_ Figures shown have been fictionalised for portfolio purposes; the structure reflects a real onboarding tracking workflow.
+## Data Source
+Sample Superstore Dataset via Kaggle
+kaggle.com/datasets/vivek468/superstore-dataset-final
