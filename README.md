@@ -1,5 +1,5 @@
 ## SQL Business Queries Project
-![Profit Margin by Category](profit_margin_query.png)
+![Profit Margin by Category](https://raw.githubusercontent.com/mtdavis-datalabs/SQL_Business_Queries_Project/main/Profit_Margin_Query.png)
 
 ## Overview
 A set of SQL queries answering real business questions against the Superstore 
