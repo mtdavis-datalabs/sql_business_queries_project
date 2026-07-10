@@ -1,5 +1,6 @@
 ## SQL Business Queries Project
 
+<img width="1309" height="698" alt="Image" src="https://github.com/user-attachments/assets/e28241e1-9520-4409-a605-a6cfab7d721a" />
 
 ## Overview
 A set of SQL queries answering real business questions against the Superstore 
