@@ -1,4 +1,4 @@
-## SQL Business Queries Project
+# SQL Business Queries Project
 
 ## Overview
 A set of SQL queries answering real business questions against the Superstore 
