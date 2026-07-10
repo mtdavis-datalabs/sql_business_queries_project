@@ -1,5 +1,5 @@
 ## SQL Business Queries Project
-[INSERT SCREENSHOT OF A QUERY RESULT]
+![Profit Margin by Category](profit_margin_query.png)
 
 ## Overview
 A set of SQL queries answering real business questions against the Superstore 
