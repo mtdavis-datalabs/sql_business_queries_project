@@ -28,6 +28,7 @@ string-based date parsing
 
 ## Files
 [queries.sql](queries.sql) — all SQL queries with comments
+
 [findings.md](findings.md) — business findings for each query
 
 ## Data Source
